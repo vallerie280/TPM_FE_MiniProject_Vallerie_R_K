@@ -1,0 +1,52 @@
+body {
+  font-family: "Inter", serif;
+  background-color: #e3e3e3;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.main_box {
+  width: 400px;
+  background-color: #eaeaea;
+  margin: auto;
+}
+
+p {
+  font-size: 18px;
+  line-height: 200%;
+}
+.title {
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.ornament {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.line {
+  width: 85px;
+  height: 3px;
+  background-color: lightgray;
+}
+
+.main_line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#line1 {
+  background-color: black;
+}
